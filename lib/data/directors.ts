@@ -185,7 +185,7 @@ export const directors: Director[] = [
     birthYear: 1922,
     deathYear: 1975,
     imageUrl: "/directors/pier-paolo-pasolini.jpg",
-    imageCredit: "Photo by Anatole Saderman, 1962 (public domain)",
+    imageCredit: "Public domain",
     shortIdentity: "Class, faith, and power, filmed without comfort.",
     beginWithMovieId: "mamma-roma",
     shortBio:
@@ -270,7 +270,8 @@ export const directors: Director[] = [
     birthYear: 1906,
     deathYear: 1976,
     imageUrl: "/directors/luchino-visconti.jpg",
-    imageCredit: "Archivio Cinema, 1952 (public domain)",
+    imageCredit: "Marisa Rastellini / Mondadori Publisher (public domain)",
+    imagePosition: "object-top",
     shortIdentity: "Beauty, class, and history, in slow and elegant decline.",
     beginWithMovieId: "il-gattopardo",
     shortBio:
