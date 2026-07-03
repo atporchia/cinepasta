@@ -12,6 +12,8 @@ export type Director = {
   name: string;
   birthYear?: number;
   deathYear?: number;
+  imageUrl?: string;
+  imageCredit?: string;
   shortIdentity: string;
   beginWithMovieId: string;
   shortBio: string;

@@ -1,26 +1,34 @@
 import Link from "next/link";
 import type { WatchPath } from "@/lib/types";
 import { FocusList } from "@/components/FocusList";
+import { PosterPlaceholder } from "@/components/PosterPlaceholder";
 
 export function WatchPathCard({ watchPath }: { watchPath: WatchPath }) {
   return (
     <Link
       href={`/watch-paths/${watchPath.slug}`}
-      className="group flex flex-col rounded-lg border border-border bg-background-elevated p-6 transition-colors hover:border-gold/40"
+      className="group flex h-full flex-col overflow-hidden rounded-lg border border-border bg-background-elevated transition-colors hover:border-gold/40"
     >
-      <p className="text-xs font-semibold uppercase tracking-widest text-gold">
-        Watch Path
-      </p>
-      <h3 className="mt-2 font-serif text-xl font-bold text-foreground">{watchPath.title}</h3>
-      <p className="mt-1 text-sm text-foreground-muted">{watchPath.subtitle}</p>
-      <p className="mt-3 text-sm leading-relaxed text-foreground-muted">{watchPath.description}</p>
-      <div className="mt-4">
-        <FocusList items={watchPath.focus} />
+      <PosterPlaceholder
+        title={watchPath.title}
+        aspect="aspect-[2/3]"
+        className="rounded-none border-0 border-b border-border"
+      />
+      <div className="flex flex-1 flex-col p-5">
+        <p className="text-xs font-semibold uppercase tracking-widest text-gold">Watch Path</p>
+        <h3 className="mt-1 font-serif text-lg font-bold text-foreground">{watchPath.title}</h3>
+        <p className="mt-1 text-sm text-foreground-muted">{watchPath.subtitle}</p>
+        <p className="mt-2 text-sm leading-relaxed text-foreground-muted line-clamp-3">
+          {watchPath.description}
+        </p>
+        <div className="mt-3">
+          <FocusList items={watchPath.focus.slice(0, 3)} />
+        </div>
+        <span className="mt-auto inline-flex items-center gap-1 pt-4 text-sm font-medium text-gold group-hover:text-gold-soft">
+          {watchPath.movieIds.length} films
+          <span aria-hidden>→</span>
+        </span>
       </div>
-      <span className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-gold group-hover:text-gold-soft">
-        {watchPath.movieIds.length} films
-        <span aria-hidden>→</span>
-      </span>
     </Link>
   );
 }

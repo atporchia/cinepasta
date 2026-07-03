@@ -1,18 +1,24 @@
 import Link from "next/link";
 import { directors } from "@/lib/data/directors";
 import { watchPaths } from "@/lib/data/watchPaths";
-import { getMovieById } from "@/lib/data/movies";
+import { getMoviesByIds } from "@/lib/utils";
 import { homeMoodOptions } from "@/lib/data/moods";
 import { DirectorCard } from "@/components/DirectorCard";
 import { WatchPathCard } from "@/components/WatchPathCard";
+import { MovieCard } from "@/components/MovieCard";
 import { SectionHeader } from "@/components/SectionHeader";
 import { MoodGrid } from "@/components/MoodGrid";
-import { DifficultyLabel } from "@/components/DifficultyLabel";
-import { PosterPlaceholder } from "@/components/PosterPlaceholder";
+
+const FEATURED_MOVIE_IDS = [
+  "il-sorpasso",
+  "la-dolce-vita",
+  "una-giornata-particolare",
+  "il-gattopardo",
+  "il-buono-il-brutto-il-cattivo",
+];
 
 export default function HomePage() {
-  const featuredWatchPath = watchPaths.find((path) => path.id === "laughing-at-italy")!;
-  const featuredMovie = getMovieById("il-sorpasso")!;
+  const featuredMovies = getMoviesByIds(FEATURED_MOVIE_IDS);
 
   return (
     <div>
@@ -79,44 +85,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured watch path + featured movie */}
+      {/* A curated journey */}
       <section className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
-        <div className="grid gap-8 lg:grid-cols-2">
-          <div>
-            <SectionHeader eyebrow="Featured watch path" title="A curated journey" />
-            <WatchPathCard watchPath={featuredWatchPath} />
-          </div>
+        <SectionHeader
+          eyebrow="Featured watch paths"
+          title="A curated journey"
+          description="Themed routes through classic Italian cinema, for when you want more than one film."
+        />
+        <div className="grid items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {watchPaths.map((path) => (
+            <WatchPathCard key={path.id} watchPath={path} />
+          ))}
+        </div>
+      </section>
 
-          <div>
-            <SectionHeader eyebrow="Featured movie" title="Start with Il sorpasso" />
-            <Link
-              href={`/movies/${featuredMovie.slug}`}
-              className="group flex flex-col overflow-hidden rounded-lg border border-border bg-background-elevated transition-colors hover:border-gold/40 sm:flex-row"
-            >
-              <PosterPlaceholder
-                title={featuredMovie.title}
-                aspect="aspect-[2/3]"
-                className="w-full rounded-none border-0 sm:w-40"
-              />
-              <div className="flex flex-1 flex-col p-6">
-                <p className="text-xs text-foreground-faint">
-                  {featuredMovie.year} · Dino Risi
-                </p>
-                <h3 className="mt-1 font-serif text-xl font-bold text-foreground">
-                  {featuredMovie.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-foreground-muted">
-                  A road movie, a comedy, and a portrait of Italy rushing into modern life.
-                </p>
-                <div className="mt-4">
-                  <DifficultyLabel difficulty={featuredMovie.difficulty} />
-                </div>
-                <span className="mt-5 inline-flex items-center gap-1 text-sm font-medium text-gold group-hover:text-gold-soft">
-                  Open movie page
-                  <span aria-hidden>→</span>
-                </span>
-              </div>
-            </Link>
+      {/* Featured movies */}
+      <section className="border-t border-border-soft bg-background-elevated">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+          <SectionHeader
+            eyebrow="Featured movies"
+            title="A few good places to start"
+            description="Five accessible entry points, spanning five very different directors."
+          />
+          <div className="grid items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredMovies.map((movie) => (
+              <MovieCard key={movie.id} movie={movie} />
+            ))}
           </div>
         </div>
       </section>

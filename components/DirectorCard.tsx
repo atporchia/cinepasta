@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Director } from "@/lib/types";
-import { PosterPlaceholder } from "@/components/PosterPlaceholder";
+import { DirectorPhoto } from "@/components/DirectorPhoto";
 import { getMovieById } from "@/lib/data/movies";
 
 export function DirectorCard({ director }: { director: Director }) {
@@ -9,9 +9,14 @@ export function DirectorCard({ director }: { director: Director }) {
   return (
     <Link
       href={`/directors/${director.slug}`}
-      className="group flex flex-col overflow-hidden rounded-lg border border-border bg-background-elevated transition-colors hover:border-gold/40"
+      className="group flex h-full flex-col overflow-hidden rounded-lg border border-border bg-background-elevated transition-colors hover:border-gold/40"
     >
-      <PosterPlaceholder title={director.name} aspect="aspect-[4/3]" className="rounded-none border-0 border-b border-border" />
+      <DirectorPhoto
+        director={director}
+        aspect="aspect-[4/3]"
+        className="border-0 border-b border-border"
+        sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+      />
       <div className="flex flex-1 flex-col p-5">
         <h3 className="font-serif text-lg font-bold text-foreground">{director.name}</h3>
         <p className="mt-1 text-sm text-foreground-muted">{director.shortIdentity}</p>

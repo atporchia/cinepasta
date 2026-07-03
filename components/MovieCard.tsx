@@ -10,7 +10,7 @@ export function MovieCard({ movie }: { movie: Movie }) {
   return (
     <Link
       href={`/movies/${movie.slug}`}
-      className="group flex gap-4 rounded-lg border border-border bg-background-elevated p-4 transition-colors hover:border-gold/40 sm:flex-col sm:gap-0 sm:p-0"
+      className="group flex h-full gap-4 rounded-lg border border-border bg-background-elevated p-4 transition-colors hover:border-gold/40 sm:flex-col sm:gap-0 sm:p-0"
     >
       <PosterPlaceholder title={movie.title} className="w-24 shrink-0 rounded-md sm:w-full sm:rounded-none sm:rounded-t-lg sm:border-0 sm:border-b" />
       <div className="flex flex-1 flex-col sm:p-5">
@@ -26,7 +26,7 @@ export function MovieCard({ movie }: { movie: Movie }) {
         <p className="mt-2 text-sm leading-relaxed text-foreground-muted line-clamp-2 sm:line-clamp-3">
           {movie.oneLineDescription}
         </p>
-        <div className="mt-3">
+        <div className="mt-auto pt-3">
           <DifficultyLabel difficulty={movie.difficulty} />
         </div>
       </div>

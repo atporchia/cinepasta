@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { directors, getDirectorBySlug } from "@/lib/data/directors";
 import { getMovieById } from "@/lib/data/movies";
 import { getMoviesByIds } from "@/lib/utils";
-import { PosterPlaceholder } from "@/components/PosterPlaceholder";
+import { DirectorPhoto } from "@/components/DirectorPhoto";
 import { FocusList } from "@/components/FocusList";
 import { BeginWithMovie } from "@/components/BeginWithMovie";
 import { MovieCard } from "@/components/MovieCard";
@@ -60,7 +60,7 @@ export default async function DirectorDetailPage({
       {/* Hero */}
       <section className="border-b border-border-soft bg-background-elevated">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-[280px_1fr] md:items-start">
-          <PosterPlaceholder title={director.name} aspect="aspect-[4/5]" />
+          <DirectorPhoto director={director} aspect="aspect-[4/5]" showCredit sizes="280px" />
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-foreground-faint">
               {years}

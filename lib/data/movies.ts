@@ -89,6 +89,35 @@ export const movies: Movie[] = [
     spoilerFree: true,
     fullPageAvailable: true,
   },
+  {
+    id: "i-mostri",
+    slug: "i-mostri",
+    title: "I mostri",
+    originalTitle: "I mostri",
+    year: 1963,
+    directorIds: ["dino-risi"],
+    difficulty: "Medium",
+    oneLineDescription:
+      "A rapid-fire anthology of short, sharp sketches exposing the hypocrisy, vanity, and petty cruelty hiding under everyday Italian life.",
+    whatItsAbout:
+      "Told across roughly twenty short episodes, the film moves through fathers, husbands, officials, and ordinary citizens, each caught in a small moment of hypocrisy, cowardice, or self-interest. No episode lasts long enough to become comfortable, and the two lead actors reappear across the sketches in wildly different roles, from doting parent to petty crook to smug bureaucrat.",
+    whyItMatters:
+      "It condensed an entire generation's worth of commedia all'italiana observations into one rapid, unsparing anthology, and remains a genre landmark.",
+    whatMakesItSpecial:
+      "The sketch format lets the film hit harder and faster than a conventional story, moving on before any single joke overstays its welcome.",
+    whatToNotice:
+      "Notice how many episodes turn on a single, small betrayal, and how rarely anyone in the film actually gets caught.",
+    placeInDirectorsWorld:
+      "This is Risi's cynicism distilled into its purest, most concentrated form: dozens of ordinary people, each quietly failing a small moral test.",
+    goodFirstWatch:
+      "Better after another Risi film. Its rapid, sketch-based cynicism lands harder once you know his warmer, character-driven work first.",
+    watchThisIfYouLike:
+      "Watch this if you like sketch comedy, unsparing social satire, and films that indict a whole society one small moment at a time.",
+    whereToGoNextMovieIds: ["il-sorpasso", "una-vita-difficile", "amici-miei"],
+    focus: ["Hypocrisy", "Satire", "Vanity", "Morality"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
 
   // ───────────────────────── MARIO MONICELLI ─────────────────────────
   {
@@ -178,6 +207,35 @@ export const movies: Movie[] = [
     spoilerFree: true,
     fullPageAvailable: true,
   },
+  {
+    id: "armata-brancaleone",
+    slug: "armata-brancaleone",
+    title: "L'armata Brancaleone",
+    originalTitle: "L'armata Brancaleone",
+    year: 1966,
+    directorIds: ["mario-monicelli"],
+    difficulty: "Easy entry",
+    oneLineDescription:
+      "A penniless, self-declared knight leads a band of misfits across a chaotic, invented medieval Italy in search of a fortune that may not exist.",
+    whatItsAbout:
+      "Brancaleone is a broke, minor nobleman who talks his way into leading a ragged group of drifters toward a piece of land supposedly promised to a dead knight whose papers he now carries. None of them are equipped for the journey: not for the roads, the rival lords, or each other. What follows is a chaotic trek through a medieval Italy that is invented, absurd, and very funny.",
+    whyItMatters:
+      "It uses invented medieval slang and pure slapstick to poke at Italian myths of chivalry and nobility, becoming one of the most quoted comedies in Italian cinema.",
+    whatMakesItSpecial:
+      "The film's constant, chaotic momentum rarely lets up, but it always stays grounded in specific, believable human pettiness.",
+    whatToNotice:
+      "Notice how each member of the band undercuts Brancaleone's grand self-image in a different way, and how often 'nobility' turns out to mean nothing more than good luck.",
+    placeInDirectorsWorld:
+      "This pushes Monicelli's tragicomic band-of-losers formula into pure historical farce, without losing his warmth for hapless characters.",
+    goodFirstWatch:
+      "Yes — easy entry, and one of the silliest, most purely fun films in this group of directors.",
+    watchThisIfYouLike:
+      "Watch this if you like ragtag adventuring parties, historical farce, and comedies built on pure chaotic momentum.",
+    whereToGoNextMovieIds: ["i-soliti-ignoti", "la-grande-guerra", "amici-miei"],
+    focus: ["Farce", "Nobility", "Groups", "Chaos"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
 
   // ───────────────────────── FEDERICO FELLINI ─────────────────────────
   {
@@ -206,6 +264,35 @@ export const movies: Movie[] = [
       "Watch this if you like glamorous nightlife with a hollow center, episodic storytelling, and films that capture a whole era in a handful of nights.",
     whereToGoNextMovieIds: ["otto-e-mezzo", "amarcord", "il-gattopardo"],
     focus: ["Fame", "Emptiness", "Rome", "Spectacle"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
+  {
+    id: "la-strada",
+    slug: "la-strada",
+    title: "La strada",
+    originalTitle: "La strada",
+    year: 1954,
+    directorIds: ["federico-fellini"],
+    difficulty: "Easy but emotional",
+    oneLineDescription:
+      "A simple, warm-hearted woman is sold into service to a traveling strongman, and the road becomes her whole world.",
+    whatItsAbout:
+      "Gelsomina is sent away by her mother to work for Zampano, a strongman who tours small towns performing a single, brutal trick. She learns to play a drum, ride in his motorbike-drawn wagon, and endure his temper, while slowly building her own way of seeing the world around them. A traveling tightrope walker who crosses their path offers her a different idea of what companionship could look like.",
+    whyItMatters:
+      "It announced Fellini as a director interested in souls rather than plots, and won the first-ever Academy Award for Best Foreign Language Film.",
+    whatMakesItSpecial:
+      "Gelsomina's openness and Zampano's hardness create one of Italian cinema's most affecting mismatched pairs, without either character ever becoming a simple symbol.",
+    whatToNotice:
+      "Notice how much Gelsomina communicates through her face and small gestures, and how the road itself seems to shape everyone who travels it.",
+    placeInDirectorsWorld:
+      "Before the dreams and spectacle of his later work, this is Fellini at his most direct: a simple story carrying enormous feeling.",
+    goodFirstWatch:
+      "Yes. Simple, moving, and one of the most approachable doors into Fellini's cinema.",
+    watchThisIfYouLike:
+      "Watch this if you like traveling-performer stories, mismatched companions, and films that find something sacred in ordinary kindness.",
+    whereToGoNextMovieIds: ["la-dolce-vita", "amarcord", "una-giornata-particolare"],
+    focus: ["Kindness", "The road", "Cruelty", "Companionship"],
     spoilerFree: true,
     fullPageAvailable: true,
   },
@@ -356,6 +443,35 @@ export const movies: Movie[] = [
     spoilerFree: true,
     fullPageAvailable: true,
   },
+  {
+    id: "la-terrazza",
+    slug: "la-terrazza",
+    title: "La terrazza",
+    originalTitle: "La terrazza",
+    year: 1980,
+    directorIds: ["ettore-scola"],
+    difficulty: "Medium",
+    oneLineDescription:
+      "A group of Roman screenwriters, journalists, and intellectuals confront creative failure and middle age, one rooftop party at a time.",
+    whatItsAbout:
+      "Across a series of parties held on the same Roman rooftop terrace, a circle of old friends, screenwriters, journalists, a producer, a politician, keep running into each other, and into the gap between the lives they imagined and the ones they are actually living. Marriages are stalling, scripts are stalling, and everyone at the party seems to sense it about everyone else before they will admit it about themselves.",
+    whyItMatters:
+      "It captures a very specific kind of disappointment: successful, cultured people who did everything they were supposed to do, and still feel like they missed something.",
+    whatMakesItSpecial:
+      "The ensemble cast trades in and out of focus across the parties, letting the film build a whole social world instead of a single storyline.",
+    whatToNotice:
+      "Notice how little the terrace itself changes from party to party, while the people gathered on it quietly do.",
+    placeInDirectorsWorld:
+      "Alongside C'eravamo tanto amati, this is Scola's clearest picture of a generation measuring its ideals against how its life actually turned out.",
+    goodFirstWatch:
+      "Better after another Scola film. Its ensemble of overlapping disappointments lands harder once you know his warmer work first.",
+    watchThisIfYouLike:
+      "Watch this if you like ensemble dramas, intellectual malaise, and stories about creative people quietly running out of road.",
+    whereToGoNextMovieIds: ["ceravamo-tanto-amati", "una-vita-difficile", "amici-miei"],
+    focus: ["Middle age", "Creative failure", "Friendship", "Disappointment"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
 
   // ───────────────────────── VITTORIO DE SICA ─────────────────────────
   {
@@ -387,6 +503,35 @@ export const movies: Movie[] = [
     spoilerFree: true,
     fullPageAvailable: true,
   },
+  {
+    id: "umberto-d",
+    slug: "umberto-d",
+    title: "Umberto D.",
+    originalTitle: "Umberto D.",
+    year: 1952,
+    directorIds: ["vittorio-de-sica"],
+    difficulty: "Easy but emotional",
+    oneLineDescription:
+      "An elderly pensioner and his devoted dog try to hold onto a life that Italy's postwar economy has quietly stopped making room for.",
+    whatItsAbout:
+      "Umberto worked for the state for decades, and now his pension barely covers rent, let alone food. His landlady wants him out, his old colleagues have their own problems, and the only creature who seems to need him unconditionally is his small dog, Flike. Alongside a young maid in his building who is facing her own crisis, Umberto tries every dignified option he can think of to keep from losing the little he has left.",
+    whyItMatters:
+      "It is one of neorealism's most quietly devastating portraits of old age, showing how a society can hollow out care for its most vulnerable citizens without a single villain ever appearing on screen.",
+    whatMakesItSpecial:
+      "The film finds enormous emotion in small, undramatic moments: a shared meal, a locked door, a dog waiting patiently outside.",
+    whatToNotice:
+      "Notice how rarely Umberto asks for help directly, and how much of his dignity depends on small, private rituals he tries to protect.",
+    placeInDirectorsWorld:
+      "Alongside Ladri di biciclette, this is De Sica's clearest statement that ordinary, overlooked lives deserve to be treated with total seriousness.",
+    goodFirstWatch:
+      "Yes, but emotionally heavy. One of the most affecting films in this group of directors.",
+    watchThisIfYouLike:
+      "Watch this if you like quiet character studies, stories about dignity under pressure, and films built around the bond between a person and their pet.",
+    whereToGoNextMovieIds: ["ladri-di-biciclette", "una-vita-difficile", "mamma-roma"],
+    focus: ["Old age", "Dignity", "Poverty", "Loneliness"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
 
   // ───────────────────────── PIER PAOLO PASOLINI ─────────────────────────
   {
@@ -415,6 +560,35 @@ export const movies: Movie[] = [
       "Watch this if you like stories about mothers fighting for their children's futures, Rome's outskirts as a setting, and realism shot with real visual care.",
     whereToGoNextMovieIds: ["ladri-di-biciclette", "brutti-sporchi-e-cattivi", "una-giornata-particolare"],
     focus: ["Class", "Motherhood", "Rome", "Dignity"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
+  {
+    id: "accattone",
+    slug: "accattone",
+    title: "Accattone",
+    originalTitle: "Accattone",
+    year: 1961,
+    directorIds: ["pier-paolo-pasolini"],
+    difficulty: "Not casual",
+    oneLineDescription:
+      "A small-time pimp in Rome's poorest slums drifts between petty schemes, unwilling to imagine any life other than the one he already has.",
+    whatItsAbout:
+      "Accattone gets by on what the woman in his life earns, and reacts badly when that arrangement falls apart. Rather than take an ordinary job, which he treats as beneath him, he drifts between half-formed plans and small-time hustles, circling the same streets and the same people. A tentative connection with a young woman briefly suggests another way of living, without ever making it feel guaranteed.",
+    whyItMatters:
+      "It was Pasolini's first film as director, and it announced his lifelong subject: the people Italian society pushed to its absolute margins, filmed without judgment or comfort.",
+    whatMakesItSpecial:
+      "The film refuses to soften or explain away its central character, asking the viewer to sit with someone difficult to like and impossible to fully dismiss.",
+    whatToNotice:
+      "Notice how the film's Roman slums are shot with an almost classical stillness, in deliberate contrast to the chaos of Accattone's life.",
+    placeInDirectorsWorld:
+      "This is where Pasolini's lifelong focus on Rome's poorest, most overlooked people begins, in its rawest and least forgiving form.",
+    goodFirstWatch:
+      "Not casual. A demanding, unsentimental film best watched once you're ready for Pasolini's harder edges.",
+    watchThisIfYouLike:
+      "Watch this if you like unsentimental portraits of the margins, morally difficult protagonists, and stark, classically composed black-and-white cinematography.",
+    whereToGoNextMovieIds: ["mamma-roma", "brutti-sporchi-e-cattivi", "una-vita-difficile"],
+    focus: ["Poverty", "Rome", "Survival", "Class"],
     spoilerFree: true,
     fullPageAvailable: true,
   },
@@ -509,6 +683,35 @@ export const movies: Movie[] = [
     spoilerFree: true,
     fullPageAvailable: true,
   },
+  {
+    id: "lavventura",
+    slug: "lavventura",
+    title: "L'avventura",
+    originalTitle: "L'avventura",
+    year: 1960,
+    directorIds: ["michelangelo-antonioni"],
+    difficulty: "For patient viewers",
+    oneLineDescription:
+      "During a boat trip to a remote island, a young woman vanishes without explanation, and the search for her slowly becomes something else entirely.",
+    whatItsAbout:
+      "A small group of wealthy friends take a yachting trip to a cluster of volcanic islands, where Anna disappears during a stop without any warning. Her boyfriend Sandro and her close friend Claudia lead the search, questioning locals and retracing steps across the island and later the mainland. As days pass without answers, the search itself starts to change the relationship between the two people looking hardest for her.",
+    whyItMatters:
+      "It reshaped what cinema could leave unresolved, proving that an unanswered mystery could be more emotionally honest than a solved one.",
+    whatMakesItSpecial:
+      "The film treats its landscapes, rocky islands, empty piazzas, half-built towns, as extensions of its characters' inner emptiness.",
+    whatToNotice:
+      "Notice how quickly the urgency of the search fades, and what that fading reveals about the people still supposedly looking.",
+    placeInDirectorsWorld:
+      "This is the film that established Antonioni's signature: modern people, adrift, in landscapes that mirror exactly how disconnected they feel.",
+    goodFirstWatch:
+      "For patient viewers. Demanding and deliberately unresolved, best watched once you're ready for Antonioni's rhythm.",
+    watchThisIfYouLike:
+      "Watch this if you like slow-burn mysteries with no tidy answers, stories about emotional drift, and landscapes that carry as much meaning as dialogue.",
+    whereToGoNextMovieIds: ["leclisse", "morte-a-venezia", "il-gattopardo"],
+    focus: ["Mystery", "Emotional drift", "Landscape", "Alienation"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
 
   // ───────────────────────── LUCHINO VISCONTI ─────────────────────────
   {
@@ -597,6 +800,35 @@ export const movies: Movie[] = [
       "Watch this if you like morally complicated protagonists, films that mix dark comedy with real horror, and stories that refuse to look away from what survival can cost.",
     whereToGoNextMovieIds: ["profumo-di-donna", "brutti-sporchi-e-cattivi", "mamma-roma"],
     focus: ["Survival", "War", "Morality", "Power"],
+    spoilerFree: true,
+    fullPageAvailable: true,
+  },
+  {
+    id: "film-damore-e-danarchia",
+    slug: "film-damore-e-danarchia",
+    title: "Film d'amore e d'anarchia",
+    originalTitle: "Film d'amore e d'anarchia",
+    year: 1973,
+    directorIds: ["lina-wertmuller"],
+    difficulty: "Medium",
+    oneLineDescription:
+      "An anarchist farmhand travels to Rome with a plan to assassinate Mussolini, and finds his resolve complicated by the women sheltering him.",
+    whatItsAbout:
+      "Tunin arrives in Rome carrying a plan hatched with an anarchist friend: to assassinate the fascist leader. He is sheltered at a brothel run by a woman sympathetic to the cause, and quickly falls for one of the other women there. As the date set for the assassination approaches, love, fear, and political conviction all pull at him at once, and it becomes less and less clear which one will win.",
+    whyItMatters:
+      "It puts political conviction and human weakness in the same room together, refusing to let either one simply cancel out the other.",
+    whatMakesItSpecial:
+      "The film moves between the brothel's warmth and comedy and the cold seriousness of the plot against Mussolini without either register undercutting the other.",
+    whatToNotice:
+      "Notice how the brothel functions as its own small society, with its own loyalties and risks, running parallel to the political plot outside it.",
+    placeInDirectorsWorld:
+      "This is Wertmüller's political anger and provocation with a softer, more romantic edge than her later, harsher work.",
+    goodFirstWatch:
+      "Yes, but emotionally heavy. A good way into Wertmüller's mix of politics and human contradiction.",
+    watchThisIfYouLike:
+      "Watch this if you like political thrillers complicated by love, stories that mix warmth with real danger, and characters torn between conviction and desire.",
+    whereToGoNextMovieIds: ["pasqualino-settebellezze", "mamma-roma", "una-giornata-particolare"],
+    focus: ["Politics", "Anarchism", "Love", "Fascism"],
     spoilerFree: true,
     fullPageAvailable: true,
   },

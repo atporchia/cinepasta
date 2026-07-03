@@ -8,6 +8,8 @@ export const directors: Director[] = [
     name: "Ettore Scola",
     birthYear: 1931,
     deathYear: 2016,
+    imageUrl: "/directors/ettore-scola.jpg",
+    imageCredit: "Rob Bogaerts / Anefo (Nationaal Archief), CC BY-SA 3.0",
     shortIdentity: "History through people, dinners, friendships, and regrets.",
     beginWithMovieId: "ceravamo-tanto-amati",
     shortBio:
@@ -19,8 +21,8 @@ export const directors: Director[] = [
       "Scola often uses conversation, group dynamics, interiors, and time jumps to show how people change. His cinema is warm, but rarely naive. Humor and sadness often live in the same scene.",
     whyTheyMatterToday:
       "Scola matters today because his films show how people carry politics, work, love, and regret inside everyday life. His cinema understands that history is not only made by leaders and events, but also by friendships, families, disappointments, and choices people learn to live with.",
-    startHereMovieIds: ["ceravamo-tanto-amati", "una-giornata-particolare", "amici-miei"],
-    majorMovieIds: ["ceravamo-tanto-amati", "una-giornata-particolare", "brutti-sporchi-e-cattivi"],
+    startHereMovieIds: ["ceravamo-tanto-amati", "una-giornata-particolare", "la-terrazza"],
+    majorMovieIds: ["ceravamo-tanto-amati", "brutti-sporchi-e-cattivi"],
     filmography: [
       { title: "Se permettete parliamo di donne", year: 1964, oneLineDescription: "An early anthology comedy examining Italian attitudes toward women." },
       { title: "Il commissario Pepe", year: 1969, oneLineDescription: "A small-town police inspector uncovers hypocrisy among the local elite." },
@@ -28,7 +30,7 @@ export const directors: Director[] = [
       { title: "C'eravamo tanto amati", year: 1974, movieId: "ceravamo-tanto-amati", oneLineDescription: "Three friends and thirty years of Italian history, love, and disappointment." },
       { title: "Brutti, sporchi e cattivi", year: 1976, movieId: "brutti-sporchi-e-cattivi", oneLineDescription: "A sprawling shantytown family fights over a hidden fortune." },
       { title: "Una giornata particolare", year: 1977, movieId: "una-giornata-particolare", oneLineDescription: "Two neighbors share an unexpected day while Rome celebrates elsewhere." },
-      { title: "La terrazza", year: 1980, oneLineDescription: "A group of friends confronts middle age and creative disappointment at a rooftop party." },
+      { title: "La terrazza", year: 1980, movieId: "la-terrazza", oneLineDescription: "A group of friends confronts middle age and creative disappointment at a rooftop party." },
       { title: "La famiglia", year: 1987, oneLineDescription: "Eighty years of one family's life, told entirely within a single Roman apartment." },
       { title: "Che ora è", year: 1989, oneLineDescription: "A father and adult son spend a day in Rome trying, and failing, to understand each other." },
       { title: "Il viaggio di Capitan Fracassa", year: 1990, oneLineDescription: "A troupe of traveling actors journeys through a lawless, storybook Italy." },
@@ -43,6 +45,8 @@ export const directors: Director[] = [
     name: "Federico Fellini",
     birthYear: 1920,
     deathYear: 1993,
+    imageUrl: "/directors/federico-fellini.jpg",
+    imageCredit: "Public domain",
     shortIdentity: "Dreams, memory, spectacle, and the circus of being alive.",
     beginWithMovieId: "la-dolce-vita",
     shortBio:
@@ -54,12 +58,12 @@ export const directors: Director[] = [
       "Fellini favors episodic structure over tight plotting, striking faces, elaborate set pieces, and a free movement between what is real and what is imagined. His films often feel like a parade you are watching from just behind the front row.",
     whyTheyMatterToday:
       "Fellini matters today because his films capture how memory and imagination shape the way we actually experience our lives, often more than facts do. His work also asks pointed questions about fame, performance, and the gap between public image and private feeling, questions that only feel more relevant now.",
-    startHereMovieIds: ["la-dolce-vita", "amarcord", "otto-e-mezzo"],
-    majorMovieIds: ["la-dolce-vita", "otto-e-mezzo", "amarcord"],
+    startHereMovieIds: ["la-dolce-vita", "amarcord", "la-strada"],
+    majorMovieIds: ["la-dolce-vita", "otto-e-mezzo"],
     filmography: [
       { title: "Lo sceicco bianco", year: 1952, oneLineDescription: "A newlywed's fascination with a photo-comic star threatens her honeymoon." },
       { title: "I vitelloni", year: 1953, oneLineDescription: "Five young men drift through a small seaside town, avoiding adulthood." },
-      { title: "La strada", year: 1954, oneLineDescription: "A traveling strongman and the woman he buys as an assistant journey through rural Italy." },
+      { title: "La strada", year: 1954, movieId: "la-strada", oneLineDescription: "A traveling strongman and the woman he buys as an assistant journey through rural Italy." },
       { title: "Le notti di Cabiria", year: 1957, oneLineDescription: "A hopeful, unsinkable sex worker keeps searching for real love in Rome." },
       { title: "La dolce vita", year: 1960, movieId: "la-dolce-vita", oneLineDescription: "A gossip journalist drifts through Rome's glittering, hollow nightlife." },
       { title: "8½", year: 1963, movieId: "otto-e-mezzo", oneLineDescription: "A blocked director retreats into memory and fantasy mid-production." },
@@ -79,6 +83,8 @@ export const directors: Director[] = [
     name: "Mario Monicelli",
     birthYear: 1915,
     deathYear: 2010,
+    imageUrl: "/directors/mario-monicelli.jpg",
+    imageCredit: "Gorupdebesanez, CC BY-SA 3.0",
     shortIdentity: "Tragicomedy for groups of men who mean well and fail anyway.",
     beginWithMovieId: "i-soliti-ignoti",
     shortBio:
@@ -90,15 +96,15 @@ export const directors: Director[] = [
       "Monicelli builds his comedy from ensemble casts and carefully escalating plans that go wrong in specific, human ways. His rhythm mixes broad physical comedy with sudden, sobering moments that reveal what is really at stake.",
     whyTheyMatterToday:
       "Monicelli matters today because his films show how comedy can hold real hardship without flattening it, treating unemployment, war, and disappointment as material for both laughter and empathy. His flawed, ordinary characters still feel instantly recognizable.",
-    startHereMovieIds: ["i-soliti-ignoti", "amici-miei", "la-grande-guerra"],
-    majorMovieIds: ["i-soliti-ignoti", "la-grande-guerra", "amici-miei"],
+    startHereMovieIds: ["i-soliti-ignoti", "amici-miei", "armata-brancaleone"],
+    majorMovieIds: ["i-soliti-ignoti", "la-grande-guerra"],
     filmography: [
       { title: "Totò cerca casa", year: 1949, role: "Co-director", oneLineDescription: "A postwar comedy about a family's desperate search for housing in Rome." },
       { title: "Guardie e ladri", year: 1951, role: "Co-director", oneLineDescription: "A cop and the small-time crook he is chasing become unlikely friends." },
       { title: "I soliti ignoti", year: 1958, movieId: "i-soliti-ignoti", oneLineDescription: "A crew of hopeless small-time crooks plans a heist that changes everything." },
       { title: "La grande guerra", year: 1959, movieId: "la-grande-guerra", oneLineDescription: "Two reluctant soldiers try to dodge duty and danger in the First World War." },
       { title: "I compagni", year: 1963, oneLineDescription: "Textile workers organize a strike against brutal nineteenth-century conditions." },
-      { title: "L'armata Brancaleone", year: 1966, oneLineDescription: "A ragtag band of misfits marches through a chaotic, invented medieval Italy." },
+      { title: "L'armata Brancaleone", year: 1966, movieId: "armata-brancaleone", oneLineDescription: "A ragtag band of misfits marches through a chaotic, invented medieval Italy." },
       { title: "Amici miei", year: 1975, movieId: "amici-miei", oneLineDescription: "Middle-aged friends in Florence use elaborate pranks to hold off adulthood." },
       { title: "Un borghese piccolo piccolo", year: 1977, oneLineDescription: "A meek bureaucrat is pushed toward vengeance after a personal tragedy." },
       { title: "Speriamo che sia femmina", year: 1986, oneLineDescription: "The women of a Tuscan farming family take charge after the men falter." },
@@ -112,6 +118,8 @@ export const directors: Director[] = [
     name: "Dino Risi",
     birthYear: 1916,
     deathYear: 2008,
+    imageUrl: "/directors/dino-risi.jpg",
+    imageCredit: "Georges Biard, CC BY-SA 3.0",
     shortIdentity: "Charm, speed, and the sadness that catches up with both.",
     beginWithMovieId: "il-sorpasso",
     shortBio:
@@ -123,14 +131,14 @@ export const directors: Director[] = [
       "Risi favors momentum: cars, roads, quick dialogue, and confident performances that slowly reveal cracks. His comedy often turns bittersweet or even bleak in its final stretch, without ever losing its wit.",
     whyTheyMatterToday:
       "Risi matters today because his films capture how charisma can mask emptiness, and how a society chasing speed and status can leave real connection behind. His comedies still land as comedy, but they leave a lingering, honest ache.",
-    startHereMovieIds: ["il-sorpasso", "una-vita-difficile", "profumo-di-donna"],
-    majorMovieIds: ["il-sorpasso", "profumo-di-donna", "una-vita-difficile"],
+    startHereMovieIds: ["il-sorpasso", "una-vita-difficile", "i-mostri"],
+    majorMovieIds: ["il-sorpasso", "profumo-di-donna"],
     filmography: [
       { title: "Poveri ma belli", year: 1957, oneLineDescription: "Two working-class friends in Rome compete for the same girl." },
       { title: "Il vedovo", year: 1959, oneLineDescription: "A failing businessman schemes around his wealthy, exasperated wife." },
       { title: "Una vita difficile", year: 1961, movieId: "una-vita-difficile", oneLineDescription: "A former partisan tries to stay honest through two decades of postwar Italy." },
       { title: "Il sorpasso", year: 1962, movieId: "il-sorpasso", oneLineDescription: "A reckless summer drive across Italy exposes two very different men." },
-      { title: "I mostri", year: 1963, oneLineDescription: "A rapid-fire anthology of Italian hypocrisy, vanity, and moral compromise." },
+      { title: "I mostri", year: 1963, movieId: "i-mostri", oneLineDescription: "A rapid-fire anthology of Italian hypocrisy, vanity, and moral compromise." },
       { title: "Profumo di donna", year: 1974, movieId: "profumo-di-donna", oneLineDescription: "A blind, bitter officer takes a young soldier on a chaotic journey." },
       { title: "Anima persa", year: 1977, oneLineDescription: "A young man uncovers dark secrets inside his relatives' crumbling Venetian home." },
       { title: "Caro papà", year: 1979, oneLineDescription: "A wealthy industrialist's guarded life is upended after a violent attack." },
@@ -146,6 +154,8 @@ export const directors: Director[] = [
     name: "Vittorio De Sica",
     birthYear: 1901,
     deathYear: 1974,
+    imageUrl: "/directors/vittorio-de-sica.jpg",
+    imageCredit: "Harry Pot / Anefo (Nationaal Archief), CC0",
     shortIdentity: "Empathy for the poor, filmed with unflinching honesty.",
     beginWithMovieId: "ladri-di-biciclette",
     shortBio:
@@ -153,14 +163,14 @@ export const directors: Director[] = [
     directorsWorld:
       "De Sica's world is built from small, urgent human problems set against the backdrop of real poverty: a stolen bicycle, an evicted family, a hungry child. He finds enormous emotional stakes in situations that could easily be dismissed as minor.",
     focus: ["Empathy", "Poverty", "Dignity", "Survival", "Fatherhood"],
-    startHereMovieIds: ["ladri-di-biciclette"],
+    startHereMovieIds: ["ladri-di-biciclette", "umberto-d"],
     majorMovieIds: ["ladri-di-biciclette"],
     filmography: [
       { title: "I bambini ci guardano", year: 1944, oneLineDescription: "A young boy watches his parents' marriage collapse, powerless to stop it." },
       { title: "Sciuscià", year: 1946, oneLineDescription: "Two shoeshine boys in postwar Rome are failed by the adult world around them." },
       { title: "Ladri di biciclette", year: 1948, movieId: "ladri-di-biciclette", oneLineDescription: "A father and son search Rome for the bicycle his new job depends on." },
       { title: "Miracolo a Milano", year: 1951, oneLineDescription: "Slum dwellers discover a touch of magic in their fight against eviction." },
-      { title: "Umberto D.", year: 1952, oneLineDescription: "An elderly pensioner and his dog struggle to survive on almost nothing." },
+      { title: "Umberto D.", year: 1952, movieId: "umberto-d", oneLineDescription: "An elderly pensioner and his dog struggle to survive on almost nothing." },
       { title: "La ciociara", year: 1960, oneLineDescription: "A mother and daughter flee Rome for the countryside as the war closes in." },
       { title: "Ieri, oggi, domani", year: 1963, oneLineDescription: "Three loosely linked stories of love and negotiation across Italian society." },
       { title: "Il giardino dei Finzi-Contini", year: 1970, oneLineDescription: "A wealthy Jewish family in Ferrara shelters from the coming storm of fascism." },
@@ -174,6 +184,8 @@ export const directors: Director[] = [
     name: "Pier Paolo Pasolini",
     birthYear: 1922,
     deathYear: 1975,
+    imageUrl: "/directors/pier-paolo-pasolini.jpg",
+    imageCredit: "Photo by Anatole Saderman, 1962 (public domain)",
     shortIdentity: "Class, faith, and power, filmed without comfort.",
     beginWithMovieId: "mamma-roma",
     shortBio:
@@ -181,10 +193,10 @@ export const directors: Director[] = [
     directorsWorld:
       "Pasolini's world centers on people pushed to the margins of Italian society: the poor, the religious, the powerless. He films them with a mix of anger at their conditions and real tenderness toward their humanity, refusing to sentimentalize or simplify either.",
     focus: ["Class", "Religion", "Power", "Discomfort", "Anti-consumerism"],
-    startHereMovieIds: ["mamma-roma"],
+    startHereMovieIds: ["mamma-roma", "accattone"],
     majorMovieIds: ["mamma-roma"],
     filmography: [
-      { title: "Accattone", year: 1961, oneLineDescription: "A small-time pimp in Rome's slums struggles to imagine any other kind of life." },
+      { title: "Accattone", year: 1961, movieId: "accattone", oneLineDescription: "A small-time pimp in Rome's slums struggles to imagine any other kind of life." },
       { title: "Mamma Roma", year: 1962, movieId: "mamma-roma", oneLineDescription: "A former sex worker tries to build a respectable future for her son." },
       { title: "Il Vangelo secondo Matteo", year: 1964, oneLineDescription: "The life of Christ told with the stark realism of Pasolini's poorest settings." },
       { title: "Uccellacci e uccellini", year: 1966, oneLineDescription: "A father, son, and talking crow wander Italy debating faith and ideology." },
@@ -200,6 +212,8 @@ export const directors: Director[] = [
     name: "Sergio Leone",
     birthYear: 1929,
     deathYear: 1989,
+    imageUrl: "/directors/sergio-leone.jpg",
+    imageCredit: "Obbino, CC BY 2.0",
     shortIdentity: "Silence, tension, and myth, built at operatic scale.",
     beginWithMovieId: "il-buono-il-brutto-il-cattivo",
     shortBio:
@@ -208,7 +222,7 @@ export const directors: Director[] = [
       "Leone's world is the American frontier reimagined as myth: vast landscapes, morally ambiguous men, and silences stretched until they become unbearable. Music and faces often say more than dialogue ever does.",
     focus: ["Style", "Silence", "Tension", "Myth", "Revenge"],
     startHereMovieIds: ["il-buono-il-brutto-il-cattivo", "cera-una-volta-il-west"],
-    majorMovieIds: ["il-buono-il-brutto-il-cattivo", "cera-una-volta-il-west"],
+    majorMovieIds: ["il-buono-il-brutto-il-cattivo"],
     filmography: [
       { title: "Per un pugno di dollari", year: 1964, oneLineDescription: "A nameless drifter plays two rival gangs against each other." },
       { title: "Per qualche dollaro in più", year: 1965, oneLineDescription: "Two bounty hunters reluctantly team up to track the same wanted man." },
@@ -226,6 +240,8 @@ export const directors: Director[] = [
     name: "Michelangelo Antonioni",
     birthYear: 1912,
     deathYear: 2007,
+    imageUrl: "/directors/michelangelo-antonioni.jpg",
+    imageCredit: "Bibliothèque nationale de France / Gallica (public domain)",
     shortIdentity: "Loneliness, distance, and the emotional cost of modern life.",
     beginWithMovieId: "leclisse",
     shortBio:
@@ -233,12 +249,12 @@ export const directors: Director[] = [
     directorsWorld:
       "Antonioni's world is modern, comfortable, and quietly empty. His characters drift through relationships and striking architectural spaces without finding the connection they seem to be looking for, and the film rarely resolves their unease neatly.",
     focus: ["Loneliness", "Emotional distance", "Modern spaces", "Alienation"],
-    startHereMovieIds: ["leclisse"],
-    majorMovieIds: ["leclisse"],
+    startHereMovieIds: ["leclisse", "lavventura"],
+    majorMovieIds: ["lavventura"],
     filmography: [
       { title: "Cronaca di un amore", year: 1950, oneLineDescription: "A private investigator's inquiry unravels a wealthy marriage's hidden past." },
       { title: "Le amiche", year: 1955, oneLineDescription: "A group of women in Turin navigate love, ambition, and quiet despair." },
-      { title: "L'avventura", year: 1960, oneLineDescription: "A woman vanishes during a yachting trip, and the search reveals more about those left behind." },
+      { title: "L'avventura", year: 1960, movieId: "lavventura", oneLineDescription: "A woman vanishes during a yachting trip, and the search reveals more about those left behind." },
       { title: "La notte", year: 1961, oneLineDescription: "A married couple drifts through one long night confronting their fading connection." },
       { title: "L'eclisse", year: 1962, movieId: "leclisse", oneLineDescription: "A young woman drifts from one uncertain relationship into another." },
       { title: "Deserto rosso", year: 1964, oneLineDescription: "A woman's fragile mental state mirrors the industrial landscape around her." },
@@ -253,6 +269,8 @@ export const directors: Director[] = [
     name: "Luchino Visconti",
     birthYear: 1906,
     deathYear: 1976,
+    imageUrl: "/directors/luchino-visconti.jpg",
+    imageCredit: "Archivio Cinema, 1952 (public domain)",
     shortIdentity: "Beauty, class, and history, in slow and elegant decline.",
     beginWithMovieId: "il-gattopardo",
     shortBio:
@@ -261,7 +279,7 @@ export const directors: Director[] = [
       "Visconti's world is one of fading elegance: aristocrats, artists, and old families watching their certainties dissolve. He treats beauty and decay as inseparable, filming decline with as much care as he films grandeur.",
     focus: ["Beauty", "Class", "Decline", "History"],
     startHereMovieIds: ["il-gattopardo", "morte-a-venezia"],
-    majorMovieIds: ["il-gattopardo", "morte-a-venezia"],
+    majorMovieIds: ["il-gattopardo"],
     filmography: [
       { title: "Ossessione", year: 1943, oneLineDescription: "A drifter and a restless wife plot against her husband in the Po Valley." },
       { title: "La terra trema", year: 1948, oneLineDescription: "A Sicilian fishing family's attempt at independence is crushed by debt." },
@@ -280,6 +298,8 @@ export const directors: Director[] = [
     name: "Lina Wertmüller",
     birthYear: 1928,
     deathYear: 2021,
+    imageUrl: "/directors/lina-wertmuller.jpg",
+    imageCredit: "John Mathew Smith / celebrity-photos.com, CC BY-SA 2.0",
     shortIdentity: "Politics, gender, and power, pushed to provocation.",
     beginWithMovieId: "pasqualino-settebellezze",
     shortBio:
@@ -287,11 +307,11 @@ export const directors: Director[] = [
     directorsWorld:
       "Wertmüller's world is loud, chaotic, and deliberately provocative. Her characters clash over class, gender, and survival in exaggerated, sometimes grotesque situations that are built to unsettle as much as entertain.",
     focus: ["Politics", "Chaos", "Gender", "Power", "Provocation"],
-    startHereMovieIds: ["pasqualino-settebellezze"],
+    startHereMovieIds: ["pasqualino-settebellezze", "film-damore-e-danarchia"],
     majorMovieIds: ["pasqualino-settebellezze"],
     filmography: [
       { title: "Mimì metallurgico ferito nell'onore", year: 1972, oneLineDescription: "A Sicilian factory worker's affair collides messily with class and honor." },
-      { title: "Film d'amore e d'anarchia", year: 1973, oneLineDescription: "An anarchist infiltrates a brothel to plot the assassination of a fascist leader." },
+      { title: "Film d'amore e d'anarchia", year: 1973, movieId: "film-damore-e-danarchia", oneLineDescription: "An anarchist infiltrates a brothel to plot the assassination of a fascist leader." },
       { title: "Travolti da un insolito destino nell'azzurro mare d'agosto", year: 1974, oneLineDescription: "A wealthy woman and a deckhand are stranded together on a deserted island." },
       { title: "Pasqualino Settebellezze", year: 1975, movieId: "pasqualino-settebellezze", oneLineDescription: "A small-time hustler tests how far he will go to survive the war." },
     ],

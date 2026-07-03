@@ -25,7 +25,7 @@ export function SearchBar({
         <path d="m20 20-3.5-3.5" strokeLinecap="round" />
       </svg>
       <input
-        type="search"
+        type="text"
         value={value}
         onChange={(event) => onChange(event.target.value)}
         placeholder={placeholder}
