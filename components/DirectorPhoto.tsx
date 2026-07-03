@@ -26,7 +26,7 @@ export function DirectorPhoto({
         alt={`Black-and-white portrait of ${director.name}`}
         fill
         sizes={sizes}
-        className={`object-cover grayscale contrast-105 ${director.imagePosition ?? "object-center"}`}
+        className="object-contain grayscale contrast-105"
       />
       {showCredit && director.imageCredit && (
         <p className="absolute bottom-0 right-0 bg-background/70 px-2 py-1 text-[10px] leading-none text-foreground-faint">

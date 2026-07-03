@@ -271,7 +271,6 @@ export const directors: Director[] = [
     deathYear: 1976,
     imageUrl: "/directors/luchino-visconti-v2.jpg",
     imageCredit: "Marisa Rastellini / Mondadori Publisher (public domain)",
-    imagePosition: "object-top",
     shortIdentity: "Beauty, class, and history, in slow and elegant decline.",
     beginWithMovieId: "il-gattopardo",
     shortBio:

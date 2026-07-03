@@ -14,7 +14,6 @@ export type Director = {
   deathYear?: number;
   imageUrl?: string;
   imageCredit?: string;
-  imagePosition?: string;
   shortIdentity: string;
   beginWithMovieId: string;
   shortBio: string;
